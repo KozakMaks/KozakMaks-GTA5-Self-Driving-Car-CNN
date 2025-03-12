@@ -20,13 +20,7 @@ This model was trained using approximately 80,000 images with corresponding stee
 
 Two separate datasets were used for steering and throttle because the distribution for each heavily favored certain positions. The data was pruned to create a flatter distribution, preventing the model from overfitting. When one dataset had a balanced distribution, the other did not, hence the separate processing.
 
-**Steering Dataset**  
-_Before:_ ![Steering Before](path/to/steering_before.png)  
-_After:_ ![Steering After](path/to/steering_after.png)
 
-**Throttle Dataset**  
-_Before:_ ![Throttle Before](path/to/throttle_before.png)  
-_After:_ ![Throttle After](path/to/throttle_after.png)
 
 ## Prerequisites
 
